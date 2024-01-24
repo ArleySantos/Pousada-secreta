@@ -53,7 +53,9 @@ span{
 }
 
 .banner{
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
+    min-width: 300px;
     height: 300px;
     background-color: rgb(35, 158, 131, 0.6);
     text-align: center;
@@ -83,7 +85,8 @@ span{
 }
 
 .text-interacao{
-    width: 800px;
+    max-width: 800px;
+    min-width: 300px;
     margin:0 auto;
     display: flex;
     flex-direction: column;
@@ -141,4 +144,52 @@ span{
 
 .quarto img{
     width: 100%;
+}
+
+.mapa{
+    width: 100%;
+    min-width: 300px;
+    margin-bottom: 40px;
+}
+
+
+.sobre-info{
+    max-width: 1650px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex: 1 1 auto;
+    gap: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sobre-item{
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text-sobre h3{
+    font-size: 28px;
+}
+
+.text-sobre p{
+    font-size: 22px;
+    color: #3d3d3d;
+}
+
+.img-sobre{   
+    display: flex;
+}
+
+.img-sobre img{
+    width: 200px;
 }
