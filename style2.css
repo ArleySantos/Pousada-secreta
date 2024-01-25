@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro';
+}
+
+
+
+.topo{
+    max-width: 1650px;
+    min-width: 300px;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo h1{
+    font-weight: 600;
+}
+
+span{
+    color: rgb(59, 179, 248);
+}
+
+
+.nave a{
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    padding: 20px 10px;
+    margin: 0px 20px;
+}
+
+.container-banner{
+    background-image: url('assets/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.interacao{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-interacao{
+    max-width: 800px;
+    min-width: 300px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 150px;
+}
+
+.text-interacao h2{
+    font-size: 64px;
+    font-weight: 500;
+    color: #3d3d3d;
+    padding-top: 40px;
+}
+
+.text-interacao p{
+    font-size: 24px;
+    color: #3d3d3d;
+    padding-top: 10px;
+}
+
+
+.foto-solteiro{
+    max-width: 1550px;
+    min-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-quarto{
+    max-width: 500px;
+    min-width: 350px;
+    height: 400px;
+}
+
+.img-quarto img{
+    width: 100%;
+}
+
+.info-quarto{
+    max-width: 1400px;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+.info-quarto h3{
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.info-quarto ul{
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.info-quarto li{
+    text-align: left;
+}
+
+
+.foto-casal{
+    max-width: 1550px;
+    min-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img-casal{
+    max-width: 500px;
+    min-width: 350px;
+    height: 350px;
+    margin-bottom: 100px;
+}
+
+.img-casal img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.rodape{
+    background-color: rgb(63, 141, 115);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.contato{
+    max-width: 1700px;
+    min-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid  rgb(39, 82, 28);
+}
+
+.contato div{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin: 30px 20px 50px 0px;
+}
+
+.contato img{
+    width: 50px;
+    height: 50px;
+}
+
+.contato h2{
+    font-size: 38px;
+}
+
+.contato p{
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.rodape p{
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0px;
+}
